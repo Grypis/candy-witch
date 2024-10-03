@@ -1,0 +1,15 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url("./common.css");
+@import url("./header.css");
+@import url("./home.css");
+@import url("./about-us.css");
+@import url("./gallery.css");
+@import url("./benefits.css");
+@import url("./reviews.css");
+@import url("./disclaimer.css");
+@import url("./footer.css");
