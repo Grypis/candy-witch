@@ -1,0 +1,70 @@
+.container {
+  box-sizing: border-box;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #ad90c5;
+}
+
+.home-container {
+  background-image: url(../img/home/phone/bg-p-min.png);
+  background-repeat: no-repeat;
+  background-position: 50% 116%;
+}
+
+.home-title {
+  font-family: "ADLaM Display", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.home-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.78;
+  color: #4c2d7c;
+  margin-bottom: 20px;
+}
+.home-link {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.home-container-right {
+  padding-bottom: 54px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    min-width: 1200px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .home-container {
+    display: flex;
+    background-image: url(../img/home/desktop/bg-min.png);
+    background-position: 95% 57%;
+  }
+
+  .home-title {
+    font-size: 64px;
+    padding-top: 102px;
+    margin-bottom: 12px;
+  }
+
+  .home-text {
+    font-size: 24px;
+    line-height: 1.33333;
+    max-width: 468px;
+    margin-bottom: 62px;
+  }
+}
