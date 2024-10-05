@@ -1,0 +1,52 @@
+.about {
+  background-color: #ffa17b;
+}
+
+.about-div {
+  position: relative;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.15),
+    0 -8px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.wave-up-icon {
+  position: absolute;
+  top: -53%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wave-buttom-icon {
+  position: absolute;
+  top: 56%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-title {
+  font-family: 'ADLaM Display', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 12px;
+  padding-top: 16px;
+}
+.about-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: start;
+  color: #4c2d7c;
+  max-width: 284px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-text {
+    max-width: 731px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
