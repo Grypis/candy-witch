@@ -1,6 +1,6 @@
 <header class="header">
   <div class="header-container container">
-    <a href="./index.html" class="logo">
+    <a href="./index" class="logo" id="header">
       <img
         src="./public/img/header/logo.png"
         alt="logo"
@@ -8,7 +8,7 @@
       /><span class="logo-span">Candy Witch</span>
     </a>
 
-    <button class="menu-open-btn" type="button">
+    <button data-modal-open class="menu-open-btn" type="button" id="toggleMenu">
       <svg
         class="menu-open-btn-icon"
         width="28"
@@ -22,7 +22,7 @@
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-list-item">
-          <a href="./index.html" class="nav-list-link">Home</a>
+          <a href="#header" class="nav-list-link">Home</a>
         </li>
         <li class="nav-list-item">
           <a href="#about" class="nav-list-link">About us</a>
