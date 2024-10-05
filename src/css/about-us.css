@@ -27,7 +27,7 @@
 .about-title {
   font-family: 'ADLaM Display', sans-serif;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 24px;
   color: #000000;
   text-align: center;
   margin-bottom: 12px;
@@ -43,10 +43,53 @@
   padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .wave-up-icon-d {
+    display: none;
+  }
+
+  .wave-buttom-icon-d {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
+  .about {
+    padding-top: 10px;
+  }
+
+  .about-title {
+    font-size: 48px;
+  }
+
   .about-text {
     max-width: 731px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 47px;
+  }
+
+  .wave-up-icon {
+    display: none;
+  }
+
+  .wave-buttom-icon {
+    display: none;
+  }
+
+  .wave-up-icon-d {
+    position: absolute;
+    top: -55%;
+    left: 0;
+    width: 1200px;
+    height: 100%;
+  }
+
+  .wave-buttom-icon-d {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1200px;
+    height: 100%;
   }
 }
