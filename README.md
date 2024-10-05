@@ -1,1 +1,2 @@
-# Candy Witch
+# Vanilla-vite-template
+

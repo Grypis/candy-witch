@@ -1,0 +1,92 @@
+.advantages {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    0deg,
+    #d2ffb1 0%,
+    #c2fffd 35%,
+    #ffc6e6 65%,
+    #c2fffd 100%
+  );
+  padding: 67px 72px 56px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 72px;
+}
+
+.advantages h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--header-text-color);
+}
+
+.itemsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+  width: 1056px;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.advantage-item:nth-child(2n + 1) {
+  grid-row: auto;
+}
+
+.advantage-item:nth-child(2n) {
+  margin-top: 240px;
+}
+
+.advantage-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+
+  width: 516px;
+  height: 208px;
+  background: var(--Card-Background_Yellow, #fff9cd);
+}
+
+.iconContainer {
+  /* Место для стилизации контейнера иконки */
+}
+
+.icon {
+  /* Место для стилизации иконки */
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.advantage-item:nth-child(2) .text-content,
+.advantage-item:nth-child(6) .text-content {
+  gap: 112px;
+}
+
+.text-content h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: $_header_text_color;
+}
+
+.number {
+  color: $_hover_text_color;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 32px;
+}
+
+.text-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--header-text-color);
+}
