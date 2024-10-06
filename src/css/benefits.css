@@ -3,11 +3,9 @@
   padding-bottom: 20px;
 }
 
-.container {
-}
-
 .benefits-container {
-  min-width: 288px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .benefits-title {
@@ -24,7 +22,7 @@
 .benefits-list {
   list-style-type: disc;
   list-style-position: inside;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .benefits-list-item {
@@ -33,7 +31,6 @@
   font-weight: 600;
   line-height: 1.22;
   color: #4c2d7c;
-  margin: 0;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -42,7 +39,7 @@
   }
   .benefits {
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
   }
 
   .benefits-title {
@@ -53,6 +50,8 @@
   .benefits-list {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    padding-left: 218px;
   }
 
   .benefits-list-item {
