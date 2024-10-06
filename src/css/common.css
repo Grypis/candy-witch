@@ -29,9 +29,12 @@ img {
   height: auto;
 }
 
+
 body {
   background: #ad90c5;
 }
+
+
 
 .container {
   box-sizing: border-box;
@@ -41,6 +44,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .visually-hidden {
   position: absolute;
@@ -54,4 +58,12 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    min-width: 1200px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
 }

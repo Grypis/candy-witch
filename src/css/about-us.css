@@ -1,0 +1,95 @@
+.about {
+  background-color: #ffa17b;
+}
+
+.about-div {
+  position: relative;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.15),
+    0 -8px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.wave-up-icon {
+  position: absolute;
+  top: -53%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wave-buttom-icon {
+  position: absolute;
+  top: 56%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-title {
+  font-family: 'ADLaM Display', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 12px;
+  padding-top: 16px;
+}
+.about-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: start;
+  color: #4c2d7c;
+  max-width: 284px;
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .wave-up-icon-d {
+    display: none;
+  }
+
+  .wave-buttom-icon-d {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about {
+    padding-top: 10px;
+  }
+
+  .about-title {
+    font-size: 48px;
+  }
+
+  .about-text {
+    max-width: 731px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 47px;
+  }
+
+  .wave-up-icon {
+    display: none;
+  }
+
+  .wave-buttom-icon {
+    display: none;
+  }
+
+  .wave-up-icon-d {
+    position: absolute;
+    top: -55%;
+    left: 0;
+    width: 1200px;
+    height: 100%;
+  }
+
+  .wave-buttom-icon-d {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1200px;
+    height: 100%;
+  }
+}

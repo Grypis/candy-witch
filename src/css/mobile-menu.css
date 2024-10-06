@@ -1,0 +1,59 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  backdrop-filter: blur(4px);
+  background-color: rgba(0, 0, 0, 0.2);
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms linear;
+}
+
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  position: absolute;
+  padding: 60px 76px 20px 20px;
+  max-width: 270px;
+  max-height: 80%;
+  backdrop-filter: blur(90px);
+  background-color: #4c2d7c;
+  overflow-y: auto;
+}
+
+.modal-overlay.is-open .modal {
+  right: 0;
+  top: 0;
+}
+.mobile-menu-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  fill: #ffffff;
+  background-color: inherit;
+  outline: transparent;
+  border: none;
+}
+
+.nav-list-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-list-item-modal {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}

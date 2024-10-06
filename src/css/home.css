@@ -16,13 +16,13 @@
 .home-container {
   background-image: url(../img/home/phone/bg-p-min.png);
   background-repeat: no-repeat;
-  background-position: 50% 116%;
+  background-position: 50% 97%;
 }
 
 .home-title {
   font-family: 'ADLaM Display', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 64px;
   color: #000000;
   margin-bottom: 8px;
 }
@@ -43,12 +43,22 @@
   padding-bottom: 54px;
 }
 
+.home-main-img {
+  padding-bottom: 32px;
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     min-width: 1200px;
     padding-left: 24px;
     padding-right: 24px;
   }
+
+  .home {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
   .home-container {
     display: flex;
     background-image: url(../img/home/desktop/bg-min.png);
