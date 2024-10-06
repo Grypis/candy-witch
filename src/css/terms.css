@@ -1,12 +1,10 @@
 .terms {
   padding-top: 24px;
   padding-bottom: 20px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .term-introduction {
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-bottom: 10px;
 }
 
@@ -17,15 +15,15 @@
 .term-license {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .term-termination {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .term-termination-text:not(:last-of-type) {
@@ -35,15 +33,15 @@
 .term-description {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .term-access {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .term-access-text:not(:last-of-type) {
@@ -53,14 +51,16 @@
 .term-updates {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .term-button {
   display: flex;
   padding-top: 10px;
   padding-bottom: 34px;
+  padding-left: 16px;
+  padding-right: 16px;
   justify-content: center;
 }
 
@@ -84,8 +84,6 @@
 
 @media only screen and (min-width: 1200px) {
   .terms {
-    padding-left: 24px;
-    padding-right: 24px;
   }
   .container {
     max-width: 1200px;
@@ -109,25 +107,35 @@
   .term-license {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .term-termination {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .term-description {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .term-access {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .term-updates {
     padding-top: 24px;
     padding-bottom: 21px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }

@@ -18,27 +18,25 @@
 .privacy {
   padding-top: 24px;
   padding-bottom: 20px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .privacy-policy {
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .privacy-marketing {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .privacy-rights {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .privacy-rights-text:not(:last-of-type) {
@@ -48,8 +46,8 @@
 .privacy-changes {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 0;
-  padding-left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .privacy-button {
@@ -57,6 +55,8 @@
   padding-top: 10px;
   padding-bottom: 34px;
   justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .privacy-btn {
@@ -79,8 +79,6 @@
 
 @media only screen and (min-width: 1200px) {
   .privacy {
-    padding-left: 24px;
-    padding-right: 24px;
   }
   .container {
     max-width: 1200px;
@@ -98,16 +96,22 @@
 
   .privacy-policy {
     padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .privacy-marketing {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .privacy-rights {
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .privacy-rights-text:not(:last-of-type) {
@@ -117,6 +121,8 @@
   .privacy-changes {
     padding-top: 24px;
     padding-bottom: 21px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .privacy-button {
@@ -124,6 +130,8 @@
     padding-top: 21px;
     padding-bottom: 42px;
     justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .privacy-btn {
