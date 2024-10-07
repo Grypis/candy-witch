@@ -1,10 +1,30 @@
 .review {
+  position: relative;
   padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #ffa17b;
+  padding-bottom: 60px;
 }
 
 .review-container {
+  position: relative;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.15),
+    0 -8px 10px 0 rgba(0, 0, 0, 0.15);
+  background: #ffa17b;
+}
+
+.review-wave-up-icon {
+  position: absolute;
+  top: -53%;
+  left: 0;
+  min-width: 320px;
+  height: 100%;
+}
+
+.review-wave-buttom-icon {
+  position: absolute;
+  top: 56%;
+  left: 0;
+  min-width: 320px;
+  height: 100%;
 }
 
 .review-title {
@@ -15,7 +35,6 @@
   color: #000000;
   text-align: center;
   margin-bottom: 16px;
-  padding-top: 16px;
 }
 
 .carousel {
@@ -24,6 +43,7 @@
   display: flex;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  min-width: 260px;
 }
 
 .carousel::-webkit-scrollbar {
@@ -34,8 +54,7 @@
   display: flex;
   gap: 16px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  margin-bottom: 17px;
 }
 
 .review-card {
@@ -66,6 +85,15 @@
   bottom: 16px;
   right: 16px;
 }
+@media only screen and (max-width: 1199px) {
+  .review-wave-up-icon-d {
+    display: none;
+  }
+
+  .review-wave-buttom-icon-d {
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 1200px) {
   .container {
@@ -77,10 +105,40 @@
     padding-bottom: 83.5px;
   }
 
+  .review-wave-up-icon {
+    display: none;
+  }
+
+  .review-wave-buttom-icon {
+    display: none;
+  }
+
+  .review-wave-up-icon-d {
+    position: absolute;
+    top: -26%;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .review-wave-buttom-icon-d {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+
   .review-title {
-    padding-top: 0;
+    padding-top: 5px;
     padding-bottom: 34px;
     font-size: 48px;
+  }
+
+  .carousel {
+    min-width: 100%;
   }
 
   .review-text {
