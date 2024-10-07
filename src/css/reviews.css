@@ -1,7 +1,5 @@
 .review {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 60px;
 }
 
 .review-container {
@@ -9,13 +7,15 @@
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.15),
     0 -8px 10px 0 rgba(0, 0, 0, 0.15);
   background: #ffa17b;
+  width: 100vw;
+  margin: 0 auto;
 }
 
 .review-wave-up-icon {
   position: absolute;
   top: -53%;
   left: 0;
-  min-width: 320px;
+  width: 100vw;
   height: 100%;
 }
 
@@ -23,7 +23,7 @@
   position: absolute;
   top: 56%;
   left: 0;
-  min-width: 320px;
+  width: 100vw;
   height: 100%;
 }
 
@@ -85,7 +85,66 @@
   bottom: 16px;
   right: 16px;
 }
-@media only screen and (max-width: 1199px) {
+
+.review-bgc {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  background: #ad90c5;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1199px) {
+  .review-container {
+    max-width: 1199px;
+  }
+
+  .review-title {
+    padding-top: 5px;
+    padding-bottom: 34px;
+    font-size: 48px;
+  }
+
+  .review-wave-up-icon {
+    display: none;
+  }
+
+  .review-wave-buttom-icon {
+    display: none;
+  }
+
+  .review-wave-up-icon-d {
+    position: absolute;
+    top: -26%;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .review-wave-buttom-icon-d {
+    position: absolute;
+    top: 77%;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .carousel {
+    min-width: 100%;
+  }
+
+  .review-text {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  .review-card-title {
+    font-size: 16px;
+    line-height: 1.22;
+  }
+}
+
+@media only screen and (max-width: 425px) {
   .review-wave-up-icon-d {
     display: none;
   }
@@ -103,6 +162,12 @@
   .review {
     padding-top: 49.5px;
     padding-bottom: 83.5px;
+  }
+
+  .review-title {
+    padding-top: 5px;
+    padding-bottom: 34px;
+    font-size: 48px;
   }
 
   .review-wave-up-icon {
@@ -131,14 +196,9 @@
     object-fit: cover;
   }
 
-  .review-title {
-    padding-top: 5px;
-    padding-bottom: 34px;
-    font-size: 48px;
-  }
-
   .carousel {
     min-width: 100%;
+    justify-content: center;
   }
 
   .review-text {
