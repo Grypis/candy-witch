@@ -56,11 +56,7 @@
   }
 
   .benefits-list {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    padding-left: 218px;
-    min-width: 731px;
+    max-width: 731px;
   }
 
   .benefits-list-item {
