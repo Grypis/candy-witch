@@ -43,7 +43,7 @@
   padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .wave-up-icon-d {
     display: none;
   }
