@@ -7,16 +7,12 @@
   margin-right: auto;
 }
 
-.home {
-  margin-top: 92px;
-  padding-bottom: 32px;
-  background-color: #ad90c5;
-}
-
 .home-container {
   background-image: url(../img/home/phone/bg-p-min.png);
   background-repeat: no-repeat;
   background-position: 50% 97%;
+  background-color: #ad90c5;
+  padding-top: 32px;
 }
 
 .home-title {
@@ -25,6 +21,7 @@
   font-size: 64px;
   color: #000000;
   margin-bottom: 8px;
+  padding-top: 32px;
 }
 .home-text {
   font-family: 'Montserrat', sans-serif;
@@ -40,7 +37,7 @@
 }
 
 .home-container-right {
-  padding-bottom: 54px;
+  padding-bottom: 49px;
 }
 
 .home-main-img {
@@ -55,14 +52,20 @@
   }
 
   .home {
-    margin-top: 45px;
+    padding-top: 42px;
     padding-bottom: 0;
   }
 
   .home-container {
     display: flex;
     background-image: url(../img/home/desktop/bg-min.png);
+    background-clip: border-box;
     background-position: 95% 57%;
+    padding-top: 0;
+  }
+
+  .home-container-right {
+    padding-bottom: 51px;
   }
 
   .home-title {
