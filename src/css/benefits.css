@@ -2,16 +2,13 @@
   max-width: 320px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ad90c5;
 }
 
 .container {
   box-sizing: border-box;
-}
-
-.benefits-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #ad90c5;
 }
 
 .benefits-title {
@@ -44,10 +41,6 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .benefits-container {
-    background-color: #ad90c5;
     padding-top: 32px;
     padding-bottom: 64px;
   }
