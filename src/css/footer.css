@@ -1,13 +1,19 @@
 .footer {
-  padding-top: 11.5px;
-  padding-bottom: 15px;
+  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #4c2d7c;
 }
 
 .container {
   box-sizing: border-box;
+}
+
+.footer-container {
+  background-color: #4c2d7c;
+  padding-top: 11.5px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .footer-text {
@@ -43,17 +49,15 @@
 
 @media only screen and (min-width: 1200px) {
   .footer {
-    padding-top: 49.5px;
-    padding-bottom: 59px;
+    max-width: 1200px;
   }
 
   .footer-container {
     padding-left: 70px;
     padding-right: 70px;
-  }
-
-  .container {
-    max-width: 1200px;
+    padding-top: 49.5px;
+    padding-bottom: 59px;
+    background-color: #4c2d7c;
   }
 
   .footer-text-list {

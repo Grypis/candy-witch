@@ -17,26 +17,19 @@
 
 .privacy {
   padding-top: 24px;
-  padding-bottom: 20px;
-}
-
-.privacy-policy {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-bottom: 54px;
+  background-color: #ad90c5;
+  max-width: 320px;
 }
 
 .privacy-marketing {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .privacy-rights {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .privacy-rights-text:not(:last-of-type) {
@@ -46,17 +39,12 @@
 .privacy-changes {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .privacy-button {
   display: flex;
   padding-top: 10px;
-  padding-bottom: 34px;
   justify-content: center;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .privacy-btn {
