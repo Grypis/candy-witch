@@ -1,0 +1,66 @@
+.gallery-section {
+  overflow: hidden;
+}
+
+.gallery-slider {
+  display: inline-block;
+  /* gap: 24px; */
+  /* white-space: nowrap; */
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: calc(252px * 14 + 24px * 13);
+  overflow: hidden;
+  animation: 50s slide linear infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-252px * 7 - 24px * 6));
+  }
+}
+
+.gallery-section {
+}
+
+.gallery-slider {
+}
+
+.gallery {
+}
+
+.swip-wrap {
+}
+
+.gallery-img {
+}
+
+.gallery-title {
+  font-family: 'ADLaM Display', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 16px;
+  padding-top: 42px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .gallery-title {
+    font-size: 48px;
+    margin-bottom: 24px;
+    padding-top: 64px;
+  }
+
+  .gallery-img {
+    width: 300px;
+  }
+}
