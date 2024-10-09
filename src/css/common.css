@@ -29,17 +29,13 @@ img {
   height: auto;
 }
 
-body {
-  background: #ad90c5;
-}
-
-.container {
-  box-sizing: border-box;
-  max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
+@media only screen and (min-width: 320px) and (max-width: 1199px) {
+  .container {
+    max-width: 320px;
+    padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .visually-hidden {
@@ -56,10 +52,9 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 1200px) {
-  .container {
-    min-width: 1200px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  background-color: #ad90c5;
 }

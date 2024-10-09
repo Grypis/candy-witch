@@ -1,27 +1,18 @@
 .about {
-  background-color: #ffa17b;
+  padding-top: 30px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ad90c5;
 }
 
 .about-div {
+  background-image: url(../public/img/waves/phone/about-us-t.png),
+    linear-gradient(rgba(173, 144, 197, 0.993), rgba(173, 144, 197, 0.993));
   position: relative;
-  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.15),
-    0 -8px 10px 0 rgba(0, 0, 0, 0.15);
-}
-
-.wave-up-icon {
-  position: absolute;
-  top: -53%;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.wave-buttom-icon {
-  position: absolute;
-  top: 56%;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 310px;
 }
 
 .about-title {
@@ -31,7 +22,7 @@
   color: #000000;
   text-align: center;
   margin-bottom: 12px;
-  padding-top: 16px;
+  padding-top: 67px;
 }
 .about-text {
   font-family: 'Montserrat', sans-serif;
@@ -43,53 +34,34 @@
   padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 1199px) {
-  .wave-up-icon-d {
-    display: none;
-  }
-
-  .wave-buttom-icon-d {
-    display: none;
-  }
-}
-
 @media only screen and (min-width: 1200px) {
   .about {
-    padding-top: 10px;
+    padding-top: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ad90c5;
+  }
+  .about-div {
+    background-image: url(../public/img/waves/desktop/about-us.png),
+      linear-gradient(rgba(173, 144, 197, 0.993), rgba(173, 144, 197, 0.993));
+    background-repeat: no-repeat;
+    /* background-clip: padding-box; */
+    background-position: 32% 50%;
+    height: 370px;
   }
 
   .about-title {
+    margin-bottom: 24px;
     font-size: 48px;
+    margin-top: -1px;
   }
 
   .about-text {
     max-width: 731px;
+    font-size: 24px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 47px;
-  }
-
-  .wave-up-icon {
-    display: none;
-  }
-
-  .wave-buttom-icon {
-    display: none;
-  }
-
-  .wave-up-icon-d {
-    position: absolute;
-    top: -55%;
-    left: 0;
-    width: 1200px;
-    height: 100%;
-  }
-
-  .wave-buttom-icon-d {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 1200px;
-    height: 100%;
   }
 }
