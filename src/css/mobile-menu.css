@@ -13,7 +13,8 @@
 
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms linear;
+  transition: opacity 250ms ease-in-out, transform 250ms ease-in-out,
+    top 250ms ease-in-out;
 }
 
 .modal-overlay.is-open {
@@ -29,11 +30,13 @@
   backdrop-filter: blur(90px);
   background-color: #4c2d7c;
   overflow-y: auto;
+  transition: background-color 0.25s ease-in-out;
 }
 
 .modal-overlay.is-open .modal {
-  right: 0;
+  /* right: 0; */
   top: 0;
+  left: calc(50% - 11px);
 }
 .mobile-menu-close-btn {
   position: absolute;
