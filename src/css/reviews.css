@@ -1,30 +1,19 @@
 .review {
   position: relative;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ad90c5;
 }
 
 .review-container {
+  background-image: url(../public/img/waves/phone/about-us-t.png),
+    linear-gradient(rgba(173, 144, 197, 0.993), rgba(173, 144, 197, 0.993));
   position: relative;
-  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.15),
-    0 -8px 10px 0 rgba(0, 0, 0, 0.15);
-  background: #ffa17b;
-  width: 100vw;
-  margin: 0 auto;
-}
-
-.review-wave-up-icon {
-  position: absolute;
-  top: -53%;
-  left: 0;
-  width: 100vw;
-  height: 100%;
-}
-
-.review-wave-buttom-icon {
-  position: absolute;
-  top: 56%;
-  left: 0;
-  width: 100vw;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 320px;
+  padding-top: 45px;
 }
 
 .review-title {
@@ -35,6 +24,7 @@
   color: #000000;
   text-align: center;
   margin-bottom: 16px;
+  padding-top: 16px;
 }
 
 .carousel {
@@ -43,7 +33,6 @@
   display: flex;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  min-width: 260px;
 }
 
 .carousel::-webkit-scrollbar {
@@ -86,119 +75,33 @@
   right: 16px;
 }
 
-.review-bgc {
-  padding-top: 20px;
-  padding-bottom: 60px;
-  background: #ad90c5;
-}
-
-@media only screen and (min-width: 426px) and (max-width: 1199px) {
-  .review-container {
-    max-width: 1199px;
-  }
-
-  .review-title {
-    padding-top: 5px;
-    padding-bottom: 34px;
-    font-size: 48px;
-  }
-
-  .review-wave-up-icon {
-    display: none;
-  }
-
-  .review-wave-buttom-icon {
-    display: none;
-  }
-
-  .review-wave-up-icon-d {
-    position: absolute;
-    top: -26%;
-    left: 0;
-    width: 100vw;
-    height: auto;
-    object-fit: cover;
-  }
-
-  .review-wave-buttom-icon-d {
-    position: absolute;
-    top: 77%;
-    left: 0;
-    width: 100vw;
-    height: auto;
-    object-fit: cover;
-  }
-
-  .carousel {
-    min-width: 100%;
-  }
-
-  .review-text {
-    font-size: 18px;
-    line-height: 1.22;
-  }
-
-  .review-card-title {
-    font-size: 16px;
-    line-height: 1.22;
-  }
-}
-
-@media only screen and (max-width: 425px) {
-  .review-wave-up-icon-d {
-    display: none;
-  }
-
-  .review-wave-buttom-icon-d {
-    display: none;
-  }
-}
-
 @media only screen and (min-width: 1200px) {
-  .container {
+  .review {
+    position: relative;
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 72px;
+    background-color: #ad90c5;
   }
 
-  .review {
-    padding-top: 49.5px;
-    padding-bottom: 83.5px;
+  .review-container {
+    background-image: url(../public/img/waves/desktop/about-us.png),
+      linear-gradient(rgba(173, 144, 197, 0.993), rgba(173, 144, 197, 0.993));
+    background-repeat: no-repeat;
+    background-position: 32% 50%;
+    height: 370px;
+    padding-bottom: 346px;
   }
 
   .review-title {
     padding-top: 5px;
-    padding-bottom: 34px;
+    margin-bottom: 34px;
     font-size: 48px;
-  }
-
-  .review-wave-up-icon {
-    display: none;
-  }
-
-  .review-wave-buttom-icon {
-    display: none;
-  }
-
-  .review-wave-up-icon-d {
-    position: absolute;
-    top: -26%;
-    left: 0;
-    width: 100vw;
-    height: auto;
-    object-fit: cover;
-  }
-
-  .review-wave-buttom-icon-d {
-    position: absolute;
-    top: 75%;
-    left: 0;
-    width: 100vw;
-    height: auto;
-    object-fit: cover;
   }
 
   .carousel {
     min-width: 100%;
-    justify-content: center;
   }
 
   .review-text {
