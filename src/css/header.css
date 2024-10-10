@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
 .container {
   box-sizing: border-box;
   max-width: 320px;
@@ -30,7 +35,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 20;
+  z-index: 99999;
   padding-bottom: 5px;
   padding-inline: 16px;
 }
