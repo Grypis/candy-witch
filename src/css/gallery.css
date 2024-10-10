@@ -1,13 +1,19 @@
+.gallery-cont {
+  position: relative;
+}
+
 .gallery-section {
   overflow: hidden;
+  /* position: relative;
+  top: 87;
+  left: -10; */
 }
 
 .gallery-slider {
   display: inline-block;
-  /* gap: 24px; */
-  /* white-space: nowrap; */
   overflow: hidden;
   background-color: inherit;
+  position: relative;
 }
 
 .gallery {
@@ -17,6 +23,28 @@
   width: calc(252px * 14 + 24px * 13);
   overflow: hidden;
   animation: 50s slide linear infinite;
+  /* position: relative; */
+}
+
+.cont-absolute {
+  position: relative;
+}
+
+.gallery-wave-l {
+  position: absolute;
+  left: -147px;
+  top: -8px;
+  z-index: 20;
+  height: 392px;
+}
+
+.gallery-wave-r {
+  position: absolute;
+  top: -7px;
+  left: 138px;
+  z-index: 20;
+  height: 462px;
+  /* width: 44px; */
 }
 
 @keyframes slide {
@@ -28,21 +56,6 @@
   }
 }
 
-.gallery-section {
-}
-
-.gallery-slider {
-}
-
-.gallery {
-}
-
-.swip-wrap {
-}
-
-.gallery-img {
-}
-
 .gallery-title {
   font-family: 'ADLaM Display', sans-serif;
   font-weight: 400;
@@ -50,7 +63,7 @@
   text-align: center;
   color: #000000;
   margin-bottom: 16px;
-  padding-top: 42px;
+  padding-top: 60px;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -62,5 +75,23 @@
 
   .gallery-img {
     width: 300px;
+  }
+
+  .gallery-wave-l {
+    position: absolute;
+    left: -39px;
+    top: -8px;
+    z-index: 10;
+    height: 623px;
+    width: 80px;
+  }
+
+  .gallery-wave-r {
+    position: absolute;
+    top: -18px;
+    left: 1115px;
+    z-index: 10;
+    height: 623px;
+    width: 80px;
   }
 }
