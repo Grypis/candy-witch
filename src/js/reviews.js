@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+window.onload = () => {
   const reviewList = document.getElementById('reviewList');
   const cards = Array.from(reviewList.children);
   const totalCards = cards.length;
@@ -27,4 +27,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Запуск автоматичної прокрутки кожні 3 секунди (3000 мілісекунд)
   setInterval(autoScroll, 3000);
-});
+};
