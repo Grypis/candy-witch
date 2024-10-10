@@ -76,6 +76,15 @@
   right: 16px;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .review {
     position: relative;
@@ -105,7 +114,7 @@
     overflow-x: auto;
     display: flex;
     scroll-snap-type: x mandatory;
-    max-width: 100%;
+    max-width: 1200px;
   }
 
   .review-list {
@@ -113,18 +122,20 @@
     gap: 16px;
     list-style: none;
     margin-bottom: 17px;
-    width: 150%;
+    width: 100%;
   }
 
   .review-card {
     flex: 0 0 auto;
-    width: 300px;
+    max-width: 283px;
     scroll-snap-align: start;
     padding: 32px 16px;
     margin-bottom: 16px;
     border-radius: 24px;
     background-color: #ffffff;
     position: relative;
+    animation: scroll 10s linear infinite;
+    animation-delay: -5s;
   }
 
   .review-text {
