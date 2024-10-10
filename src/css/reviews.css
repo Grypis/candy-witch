@@ -76,15 +76,6 @@
   right: 16px;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
 @media only screen and (min-width: 1200px) {
   .review {
     position: relative;
@@ -113,8 +104,6 @@
   .carousel {
     overflow: hidden;
     max-width: 100%;
-
-
   }
 
   .review-list {
