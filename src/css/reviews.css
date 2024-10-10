@@ -111,10 +111,10 @@
   }
 
   .carousel {
-    overflow-x: auto;
-    display: flex;
-    scroll-snap-type: x mandatory;
-    max-width: 1200px;
+    overflow: hidden;
+    max-width: 100%;
+
+
   }
 
   .review-list {
@@ -122,7 +122,8 @@
     gap: 16px;
     list-style: none;
     margin-bottom: 17px;
-    width: 100%;
+    transition: transform 0.8s ease;
+    width: calc(150%);
   }
 
   .review-card {
