@@ -111,7 +111,7 @@
     gap: 16px;
     list-style: none;
     margin-bottom: 17px;
-    transition: transform 0.8s ease;
+    transition: transform 0.5s linear;
     width: calc(150%);
   }
 
@@ -123,9 +123,6 @@
     margin-bottom: 16px;
     border-radius: 24px;
     background-color: #ffffff;
-    position: relative;
-    animation: scroll 10s linear infinite;
-    animation-delay: -5s;
   }
 
   .review-text {
