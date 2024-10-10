@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/png;base64,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" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candy Island</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script type="module" crossorigin src="/candy-witch/commonHelpers.js"></script>
+    <link rel="stylesheet" href="/candy-witch/assets/style-96e92dba.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="header-container container">
+    <a href="./index" class="logo">
+      <img
+        src="data:image/png;base64,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"
+        alt="logo"
+        class="logo-img"
+      /><span class="logo-span">Candy Witch</span>
+    </a>
+
+    <button data-modal-open class="menu-open-btn" type="button" id="toggleMenu">
+      <svg
+        class="menu-open-btn-icon"
+        width="28"
+        height="28"
+        aria-label="mobile menu open button"
+      >
+        <use href="/candy-witch/assets/sprite-26c6feb7.svg#icon-burger"></use>
+      </svg>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="#home" class="nav-list-link">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#about" class="nav-list-link">About us</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#gallery" class="nav-list-link">Gallery</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#benefits" class="nav-list-link">Benefits</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="#reviews" class="nav-list-link">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      
+    <section class="home" id="home">
+        <div class="home-container container">
+            <div class="home-container-left">
+                <h1 class="home-title">Candy Witch</h1>
+            <p class="home-text">Spellbinding Sweets and Magical Match-3 Challenges!</p>
+            <a href="https://play.google.com/store/apps/details?id=com.outplayentertainment.candywitch" class="home-link">
+                <picture>
+                    <source srcset="data:image/png;base64,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 1x, /candy-witch/assets/google-light@2x-min-038a9347.png 2x" 
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="data:image/png;base64,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 1x, data:image/png;base64,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 2x" media="(min-width: 320px)" />
+                    <img href="" class="home-link-img" alt="google play link"></img>
+                </picture> 
+            </a>
+            </div>
+            <div class="home-container-right">
+                <picture>
+                    <source srcset="
+                    ./img/home/desktop/iPhone-16-pro-min.png 1x, 
+                    ./img/home/desktop/iphone-16-pro@2x-min.png 2x" 
+                    media="(min-width: 1200px)"
+                    />
+                    <source srcset="
+                    ./img/home/phone/iphone-16-pro-p-min.png 1x, 
+                    ./img/home/phone/iphone-16-pro@2x-p-min.png 2x" 
+                    media="(min-width: 320px)" />
+                    <img src="./img/home/phone/iphone-16-pro-p-min.png" alt="iphone 16 pro" class="home-main-img" />
+                </picture>               
+            </div>
+        </div>
+    </section>
+
+
+      <section class="about" id="about">
+  <div class="about-div container">
+    <h2 class="about-title">About us</h2>
+    <p class="about-text">
+      Embark on a spellbinding journey with Candy Witch where you'll match
+      sweets and use magical boosters to clear levels. This enchanting match-3
+      game offers a variety of challenges that will keep you entertained for
+      hours.
+    </p>
+  </div>
+</section>
+
+      <section class="gallery-cont">
+  <div class="container gallery-section" id="gallery">
+    <h2 class="gallery-title">Gallery</h2>
+
+    <div class="cont-absolute">
+      <svg class="gallery-wave-l">
+        <use href="/candy-witch/assets/sprite-26c6feb7.svg#icon-vector-1"></use>
+      </svg>
+
+      <svg class="gallery-wave-r">
+        <use href="/candy-witch/assets/sprite-26c6feb7.svg#icon-vector-1-1"></use>
+      </svg>
+    </div>
+
+    <div class="gallery-slider">
+      <div class="gallery">
+        <img
+          src="/candy-witch/assets/photo-1-t-min-d535c684.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-2-t-min-8db644e1.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+
+        <img
+          src="/candy-witch/assets/photo-4-t-min-9440e3e7.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-1-t-min-d535c684.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-6-t-min-cd12d9ba.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-1-t-min-d535c684.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-2-t-min-8db644e1.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+
+        <img
+          src="/candy-witch/assets/photo-4-t-min-9440e3e7.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-1-t-min-d535c684.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-6-t-min-cd12d9ba.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-1-t-min-d535c684.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-2-t-min-8db644e1.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+
+        <img
+          src="/candy-witch/assets/photo-4-t-min-9440e3e7.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-1-t-min-d535c684.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+        <img
+          src="/candy-witch/assets/photo-6-t-min-cd12d9ba.png"
+          alt="photo gallery"
+          class="gallery-img"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits" id="benefits">
+  <div class="benefits-container container">
+    <h2 class="benefits-title">Benefits</h2>
+    <ul class="benefits-list">
+      <li class="benefits-list-item">
+        Engage in hundreds of unique and challenging levels.
+      </li>
+      <li class="benefits-list-item">
+        Experience magical themes and vivid graphics.
+      </li>
+      <li class="benefits-list-item">
+        Unlock powerful boosters to blast through levels.
+      </li>
+      <li class="benefits-list-item">
+        Compete against friends in leaderboards.
+      </li>
+      <li class="benefits-list-item">
+        Enjoy regular updates with new levels and events.
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="review" id="reviews">
+  <div class="review-container container">
+    <h2 class="review-title">Reviews</h2>
+    <div class="carousel">
+      <ul class="review-list">
+        <li class="review-card">
+          <p class="review-text">
+            "Magical and addictively fun! The levels are challenging and the
+            graphics are gorgeous!"
+          </p>
+          <h4 class="review-card-title">SpellCaster42</h4>
+        </li>
+
+        <li class="review-card">
+          <p class="review-text">
+            "Love the themed events and the exciting power-ups!"
+          </p>
+          <h4 class="review-card-title">WitchyGamer</h4>
+        </li>
+
+        <li class="review-card">
+          <p class="review-text">
+            "A perfect blend of challenge and fun. Great for passing time!"
+          </p>
+          <h4 class="review-card-title">MatchMaster</h4>
+        </li>
+
+        <li class="review-card">
+          <p class="review-text">
+            "Never gets boring with all the different goals and obstacles."
+          </p>
+          <h4 class="review-card-title">CandyCrusader</h4>
+        </li>
+
+        <li class="review-card">
+          <p class="review-text">
+            "Best match-3 game out there. Highly addictive and well designed."
+          </p>
+          <h4 class="review-card-title">PuzzlePro</h4>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="footer-container container">
+    <ul class="footer-text-list">
+      <li class="footer-text-list-item">
+        <p class="footer-text">All rights reserved</p>
+      </li>
+      <li class="footer-text-list-item">
+        <p class="footer-text">luckygamewave.com | 2024</p>
+      </li>
+    </ul>
+
+    <nav class="footer-nav">
+      <ul class="footer-nav-list">
+        <li class="footer-nav-list-item">
+          <a href="./privacy-policy.html" class="footer-nav-link"
+            >Privacy policy</a
+          >
+        </li>
+        <li class="footer-nav-list-item">
+          <a href="./terms-of-us.html" class="footer-nav-link"
+            >Terms and conditions</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    <div class="modal-overlay" data-modal id="mobileMenu">
+  <div class="modal">
+    <button class="mobile-menu-close-btn" type="button" data-modal-close>
+      <svg
+        class="mobile-menu-close-icon"
+        width="24"
+        height="24"
+        aria-label="icon close"
+      >
+        <use href="./img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <nav class="nav-modal">
+      <ul class="nav-list-modal">
+        <li class="nav-list-item-modal">
+          <a href="#home" class="nav-list-link-modal">Home</a>
+        </li>
+        <li class="nav-list-item-modal">
+          <a href="#about" class="nav-list-link-modal">About us</a>
+        </li>
+        <li class="nav-list-item-modal">
+          <a href="#gallery" class="nav-list-link-modal">Gallery</a>
+        </li>
+        <li class="nav-list-item-modal">
+          <a href="#benefits" class="nav-list-link-modal">Benefits</a>
+        </li>
+        <li class="nav-list-item-modal">
+          <a href="#reviews" class="nav-list-link-modal">Reviews</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+    
+  </body>
+</html>
